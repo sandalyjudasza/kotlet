@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <title>Pocket Sampler</title>
+        <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body class="ui-mobile-viewport">
+
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1 id="pocket">Pocket <br>Sampler</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <div class="img1" style="width:100%;">
+                <img src="assets/poket_4@2x.png" />
+            </div>
+            <div class="ui-grid-b box">
+                <div class="pad ui-block-a">
+                    <div class="ui-bar ui-bar-e allPads jingle drum" id="007" ontouchstart="app.play('007');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-b">
+                    <div class="ui-bar ui-bar-e allPads long drum" id="002" ontouchstart="app.play('002');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-c"v>
+                    <div class="ui-bar ui-bar-e allPads long drum" id="003" ontouchstart="app.play('003');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-a">
+                    <div class="ui-bar ui-bar-e allPads long drum" id="004" ontouchstart="app.play('004');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-b">
+                    <div class="ui-bar ui-bar-e allPads short drum" id="HiTom AR60sEarly V127 1" ontouchstart="app.play('HiTom AR60sEarly V127 1');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-c"v>
+                    <div class="ui-bar ui-bar-e allPads short drum" id="006" ontouchstart="app.play('006');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-a">
+                    <div class="ui-bar ui-bar-e allPads short drum" id="Snare AR60sEarly V127 4" ontouchstart="app.play('Snare AR60sEarly V127 4');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-b">
+                    <div class="ui-bar ui-bar-e allPads short drum" id="010" ontouchstart="app.play('010');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-c"v>
+                    <div class="ui-bar ui-bar-e allPads jingle drum" id="014" ontouchstart="app.play('014');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+            </div>
+        </div>
+        <div data-role="footer" data-id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                  <li><a class="rec" href="#" onclick="app.startRec();return false;" data-role="button"><i class="fa fa-circle fa-5x" aria-hidden="true"></i></a></li>
+                  <li><a href="#" onclick="app.stopRec();return false;" data-role="button"><i class="fa fa-stop fa-5x" aria-hidden="true"></i></a></li>
+                  <li><a href="#" onclick="app.repeatRec();return false;" data-role="button"><i class="fa fa-repeat fa-5x" aria-hidden="true"></i></a></li>
+                  <li><a href="#" onclick="app.sendRec();return false;" data-role="button"><i class="fa fa-share-alt fa-5x" aria-hidden="true"></i></a></li>
+                  <li><a href="#pagetwo" data-role="button"><i class="fa fa-chevron-right fa-5x" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <div data-role="page" id="pagetwo">
+        <div data-role="header">
+            <h1 id="pocket">Pocket <br>Sampler</h1>
+        </div>
+         <div data-role="main" class="ui-content">
+            <div class="img1" style="width:100%;">
+                <img src="assets/poket_4@2x.png" />
+            </div>
+            <div class="ui-grid-b box">
+                <div class="pad ui-block-a">
+                    <div class="ui-bar ui-bar-e allPads short drum" id="Snare 808X 1" ontouchstart="app.play('Snare 808X 1');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-b">
+                    <div class="ui-bar ui-bar-e allPads long drum" id="005" ontouchstart="app.play('005');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-c">
+                    <div class="ui-bar ui-bar-e allPads long drum" id="008" ontouchstart="app.play('008');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-a">
+                    <div class="ui-bar ui-bar-e allPads short drum" id="bass" ontouchstart="app.play('bass');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-b">
+                    <div class="ui-bar ui-bar-e allPads short drum" id="bongo" ontouchstart="app.play('bongo');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-c"v>
+                    <div class="ui-bar ui-bar-e allPads short drum" id="Floor Tom AR60sEarly V127 2" ontouchstart="app.play('Floor Tom AR60sEarly V127 2');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-a">
+                    <div class="ui-bar ui-bar-e allPads short drum" id="highhat" ontouchstart="app.play('highhat');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-b">
+                    <div class="ui-bar ui-bar-e allPads short drum" id="MidTom AR60sEarly V127 1" ontouchstart="app.play('MidTom AR60sEarly V127 1');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+                <div class="pad ui-block-c"v>
+                    <div class="ui-bar ui-bar-e allPads short drum" id="snare" ontouchstart="app.play('snare');" ontouchend="app.touchEnd(event);"></div>
+                </div>
+            </div>
+         </div>
+         <div data-role="footer" data-id="foo1" data-position="fixed">
+            <div data-role="navbar">
+                <ul>
+                  <li><a class="rec" href="#" onclick="app.startRec();return false;" data-role="button"><i class="fa fa-circle fa-5x" aria-hidden="true"></i></a></li>
+                  <li><a href="#" onclick="app.stopRec();return false;" data-role="button"><i class="fa fa-stop fa-5x" aria-hidden="true"></i></a></li>
+                  <li><a href="#" onclick="app.repeatRec();return false;" data-role="button"><i class="fa fa-repeat fa-5x" aria-hidden="true"></i></a></li>
+                  <li><a href="#" onclick="app.sendRec();return false;" data-role="button"><i class="fa fa-share-alt fa-5x" aria-hidden="true"></i></a></li>
+                  <li><a href="#pageone"><i class="fa fa-chevron-left fa-5x" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        
+        <script type="text/javascript" src="index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>

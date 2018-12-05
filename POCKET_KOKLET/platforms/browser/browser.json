@@ -1,0 +1,33 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-nativeaudio": {
+            "PACKAGE_NAME": "com.example.nativeaudio"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.nativeaudio"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-nativeaudio/www/nativeaudio-browser.js",
+            "id": "cordova-plugin-nativeaudio.NativeAudioBrowser",
+            "pluginId": "cordova-plugin-nativeaudio",
+            "clobbers": [
+                "cordova.plugins.NativeAudio",
+                "plugins.NativeAudio"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-nativeaudio": "3.0.9",
+        "cordova-plugin-whitelist": "1.3.2"
+    }
+}
